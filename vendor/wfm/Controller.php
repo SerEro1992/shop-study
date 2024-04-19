@@ -24,9 +24,9 @@ abstract class Controller
     }
   }
 
-  public  function getView()
+  public function getView()
   {
-   $this->view = $this->view ?: $this->route['action'];
+    $this->view = $this->view ?: $this->route['action'];
     (new View($this->route, $this->layout, $this->view, $this->meta))->render($this->data);
 
   }
@@ -38,9 +38,25 @@ abstract class Controller
 
   public function setMeta($title = '', $keywords = '', $description = '')
   {
-    $this->meta['title'] = $title;
-    $this->meta['keywords'] = $keywords;
-    $this->meta['description'] = $description;
+    $this->meta = [
+      'title' => $title,
+      'keywords' => $keywords,
+      'description' => $description
+    ];
   }
+
+  public function isAjax(): bool
+  {
+    return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
+  }
+
+  public function loadView($view, $params = [])
+  {
+    extract($params);
+    $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
+    require APP . "/views/{$prefix}{$this->route['controller']}/{$view}.php";
+    exit();
+  }
+
 
 }

@@ -1,5 +1,7 @@
 <?php
 
+use wfm\App;
+
 function debug($data, $die = false)
 {
   echo '<pre>' . print_r($data, 1) . '</pre>';
@@ -10,5 +12,84 @@ function debug($data, $die = false)
 
 function h($string)
 {
-  return htmlspecialchars($string);
+  if ($string !== null) {
+    $encodedString = htmlspecialchars($string);
+    #Дальнейшая обработка закодированной строки
+  } else {
+   #Обработка случая, когда $string равно null
+    $encodedString = '';
+  }
+}
+
+function redirect($http = false)
+{
+  if ($http) {
+    $redirect = $http;
+  } else {
+    $redirect = $_SERVER['HTTP_REFERER'] ?? PATH;
+  }
+  header("Location: $redirect");
+  exit;
+}
+
+function base_url()
+{
+  return PATH . '/' . (App::$app->getProperty('lang') ? App::$app->getProperty('lang') . '/' : '');
+}
+
+/**
+ * @param string $key Key of GET array
+ * @param string $type Values 'i', 'f', 's'
+ * @return float|int|string
+ */
+function get($key, $type = 'i')
+{
+  $param = $key;
+  $$param = $_GET[$param] ?? '';
+  if ($type == 'i') {
+    return (int)$$param;
+  } elseif ($type == 'f') {
+    return (float)$$param;
+  } else {
+    return trim($$param);
+  }
+}
+
+
+/**
+ * @param string $key Key of POST array
+ * @param string $type Values 'i', 'f', 's'
+ * @return float|int|string
+ */
+function post($key, $type = 's')
+{
+  $param = $key;
+  $$param = $_POST[$param] ?? '';
+  if ($type == 'i') {
+    return (int)$$param;
+  } elseif ($type == 'f') {
+    return (float)$$param;
+  } else {
+    return trim($$param);
+  }
+}
+
+function __($key)
+{
+  echo wfm\Language::get($key);
+}
+
+function ___($key)
+{
+  return wfm\Language::get($key);
+}
+
+function get_cart_icon($id)
+{
+  if (!empty($_SESSION['cart'][$id]) && array_key_exists($id, $_SESSION['cart'])) {
+    $icon='<i class="fas fa-luggage-cart"></i>';
+  } else {
+    $icon='<i class="fas fa-shopping-cart"></i>';
+  }
+  return $icon;
 }

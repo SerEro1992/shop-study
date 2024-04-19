@@ -1,9 +1,102 @@
-<h1>Hello from index</h1>
+<?php
 
+use wfm\View;
 
-<?php if (!empty($names)): ?>
-  <?php foreach ($names as $name): ?>
-        <p> <?= $name->name ?> </p>
-  <?php endforeach; ?>
+/**  @var $this View */
+/** @var array $slides */
+/** @var array $products */
+?>
+
+<?php if (!empty($slides)): ?>
+    <div class="container-fluid my-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"
+             data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <!-- Выводим активные полоски слайдера -->
+              <?php for ($i = 0, $iMax = count($slides); $i < $iMax; $i++): ?>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?= $i ?>"
+                          class="<?= $i == 0 ? 'active' : '' ?>" aria-current="true"
+                          aria-label="Slide <?= $i ?>"></button>
+              <?php endfor; ?>
+            </div>
+
+            <div class="carousel-inner">
+                <!-- Выводим картинки слайдера -->
+              <?php $i = 1;
+              foreach ($slides as $slide): ?>
+                  <div class="carousel-item <?= $i == 1 ? 'active' : '' ?>">
+                      <img src="<?= PATH . $slide->img ?>" class="d-block w-100" alt="...">
+                  </div>
+                <?php $i++; endforeach; ?>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 <?php endif; ?>
+
+
+
+
+<?php if (!empty($products)): ?>
+    <section class="featured-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="section-title"><?php __('main_index_featured_products'); ?></h3>
+                </div>
+              <?php $this->getPart('parts/products_loop', compact('products')); ?>
+            </div>
+        </div>
+    </section>
+<?php endif; ?>
+
+
+<section class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="section-title">Наши преимущества</h3>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <p class="text-center"><i class="fas fa-shipping-fast"></i></p>
+                    <p>Прямые поставки от производителей</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <p class="text-center"><i class="fas fa-cubes"></i></p>
+                    <p>Широкий ассортимент товара</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <p class="text-center"><i class="fas fa-hand-holding-usd"></i></p>
+                    <p>Приятные и конкуретные цены</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <p class="text-center"><i class="fas fa-user-cog"></i></p>
+                    <p>Профессиональная консультация и сервис</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 

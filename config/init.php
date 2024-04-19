@@ -9,8 +9,8 @@ define("CACHE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
 define("LAYOUT", 'ishop');
-define("PATH", 'http;://new-ishop.loc');
-define("ADMIN", 'http;://new-ishop.loc/admin');
+define("PATH", 'http://new-ishop.loc');
+define("ADMIN", 'http://new-ishop.loc/admin');
 define ("NO_IMAGE", 'uploads/no_image.jpg');
 
 
