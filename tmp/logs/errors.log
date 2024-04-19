@@ -876,3 +876,80 @@
 [2024-04-19 14:43:04 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
 [2024-04-19 20:33:11 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
 [2024-04-19 20:33:11 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 20:43:49 ] Текст ошибки: Cannot access offset of type string on string | Файл: W:\domains\new-ishop.loc\app\models\Cart.php | Строка: 11
+[2024-04-19 20:47:43 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:43 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:44 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:44 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:52 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:52 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:59 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:47:59 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:48:00 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:48:00 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:48:02 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:48:02 ] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: W:\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 86
+[2024-04-19 20:51:58 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 20:51:58 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 20:52:05 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 20:52:05 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 21:02:01 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:02:01 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:02:05 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:02:05 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:02:17 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:02:17 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:05:13 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:05:13 ] Текст ошибки: Class "app\controllers\Breadcrumbs" not found | Файл: W:\domains\new-ishop.loc\app\controllers\ProductController.php | Строка: 22
+[2024-04-19 21:06:22 ] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: W:\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 22
+[2024-04-19 21:06:22 ] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: W:\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 22
+[2024-04-19 21:07:04 ] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: W:\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 22
+[2024-04-19 21:07:04 ] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: W:\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 22
+[2024-04-19 21:09:44 ] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: W:\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 22
+[2024-04-19 21:09:44 ] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: W:\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 22
+[2024-04-19 21:13:56 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-19 21:13:56 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-19 21:18:26 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 21:18:26 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 21:28:41 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:28:41 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:30:54 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:30:54 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:31:06 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:31:06 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:35:48 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:35:48 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:35:48 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 21:35:48 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Error/404.php.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-19 22:00:06 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 22:00:06 ] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-19 22:00:09 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:00:09 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:01:26 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:01:27 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:10:37 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:10:37 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:12:07 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:12:07 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:13:05 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:13:05 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:13:50 ] Текст ошибки: Undefined variable $str | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:13:50 ] Текст ошибки: Undefined variable $str | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:15:32 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:15:32 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:19:02 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:19:02 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:19:05 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:19:05 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-19 22:19:06 ] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: W:\domains\new-ishop.loc\vendor\wfm\helpers\functions.php | Строка: 15
+[2024-04-20 18:02:36 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-20 18:15:59 ] Текст ошибки: app\models\Category::getIds(): Return value must be of type array, string returned | Файл: W:\domains\new-ishop.loc\app\models\Category.php | Строка: 28
+[2024-04-20 18:15:59 ] Текст ошибки: app\models\Category::getIds(): Return value must be of type array, string returned | Файл: W:\domains\new-ishop.loc\app\models\Category.php | Строка: 28
+[2024-04-20 20:28:55 ] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 20:28:55 ] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 20:29:31 ] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 20:29:31 ] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 20:30:05 ] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 20:30:05 ] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 21:06:00 ] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'where clause' | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-04-20 21:06:01 ] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.status' in 'where clause' | Файл: W:\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206

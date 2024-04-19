@@ -1,5 +1,7 @@
 <?php
+
 use wfm\View;
+
 /**  @var $this View */
 ?>
 
@@ -9,7 +11,7 @@ use wfm\View;
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6">
-                    <h4>Информация</h4>
+                    <h4> <?php __('tpl_information') ?>  </h4>
                     <ul class="list-unstyled">
                         <li><a href="#">Главная</a></li>
                         <li><a href="#">О магазине</a></li>
@@ -19,7 +21,7 @@ use wfm\View;
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Время работы</h4>
+                    <h4><?php __('tpl_work_hours') ?> </h4>
                     <ul class="list-unstyled">
                         <li>г. Калуга, ул. Пушкина, 10</li>
                         <li>пн-вс: 9:00 - 18:00</li>
@@ -28,7 +30,7 @@ use wfm\View;
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Контакты</h4>
+                    <h4><?php __('tpl_contacts') ?></h4>
                     <ul class="list-unstyled">
                         <li><a href="tel:5551234567">555 123-45-67</a></li>
                         <li><a href="tel:5551234567">555 123-45-68</a></li>
@@ -37,7 +39,7 @@ use wfm\View;
                 </div>
 
                 <div class="col-md-3 col-6">
-                    <h4>Мы в сети</h4>
+                    <h4><?php __('tpl_we_online') ?></h4>
                     <div class="footer-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
@@ -75,12 +77,12 @@ use wfm\View;
 <script>
     const PATH = "<?= PATH?>";
 </script>
-<script src="<?= PATH?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= PATH ?>/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
-<script src="<?= PATH?>/assets/js/jquery.magnific-popup.min.js"></script>
-<script src="<?= PATH?>/assets/js/main.js"></script>
+<script src="<?= PATH ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= PATH ?>/assets/js/main.js"></script>
 
 </body>
 </html>

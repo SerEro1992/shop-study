@@ -10,15 +10,9 @@ function debug($data, $die = false)
   }
 }
 
-function h($string)
+function h($str)
 {
-  if ($string !== null) {
-    $encodedString = htmlspecialchars($string);
-    #Дальнейшая обработка закодированной строки
-  } else {
-   #Обработка случая, когда $string равно null
-    $encodedString = '';
-  }
+  return htmlspecialchars($str);
 }
 
 function redirect($http = false)

@@ -1,9 +1,11 @@
 <?php
 
 namespace app\controllers;
+
 use app\models\AppModel;
 use app\widgets\language\Language;
 use wfm\{App, Controller};
+use RedBeanPHP\R;
 
 class AppController extends Controller
 {
@@ -28,10 +30,14 @@ class AppController extends Controller
     \wfm\Language::load($lang['code'], $this->route);
 
 
+    # получаем категории товаров
+    $categories = R::getAssoc("SELECT c.*, cd.* FROM category c 
+                        JOIN category_description cd
+                        ON c.id = cd.category_id
+                        WHERE cd.language_id = ?", [$lang['id']]);
 
-
-
-
+    # добавляем категории в свойство контейнер
+    App::$app->setProperty("categories_{$lang['code']}", $categories);
 
 
   }

@@ -58,7 +58,7 @@ class ErrorHandler
     }
     http_response_code($response);
     if ($response == 404 && !DEBUG) {
-      require WWW . '/errors/404.php';
+      require WWW . '/errors/404.php.php';
       exit();
     }
     if (DEBUG) {

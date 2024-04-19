@@ -5,7 +5,7 @@ namespace wfm;
 abstract class Controller
 {
   public array $data = [];
-  public array $meta = ['title' => '', 'keywords' => '', 'description' => ''];
+  public array $meta = ['title' => '', 'description' => '', 'keywords' => ''];
   public false|string $layout = '';
   public string $view = '';
   public object $model;
@@ -36,12 +36,12 @@ abstract class Controller
     $this->data = $data;
   }
 
-  public function setMeta($title = '', $keywords = '', $description = '')
+  public function setMeta($title = '', $description = '', $keywords = '')
   {
     $this->meta = [
       'title' => $title,
+      'description' => $description,
       'keywords' => $keywords,
-      'description' => $description
     ];
   }
 
@@ -56,6 +56,14 @@ abstract class Controller
     $prefix = str_replace('\\', '/', $this->route['admin_prefix']);
     require APP . "/views/{$prefix}{$this->route['controller']}/{$view}.php";
     exit();
+  }
+
+  public function error_404($folder = 'Error', $view = '404', $response = 404)
+  {
+    http_response_code($response);
+    $this->setMeta(___('tpl_error_404'));
+    $this->route['controller'] = $folder;
+    $this->view = $view;
   }
 
 

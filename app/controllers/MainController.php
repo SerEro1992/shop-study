@@ -5,8 +5,6 @@ namespace app\controllers;
 use app\models\Main;
 use RedBeanPHP\R;
 use wfm\App;
-use wfm\Cache;
-use wfm\Language;
 
 
 /** @property Main $model */
@@ -21,6 +19,6 @@ class MainController extends AppController
 
     $this->set(compact('slides', 'products')); #передаем слайды и рекомендуемые товары в view->main->index
 
-    $this->setMeta(___('main_index_meta_title'), ___('main_index_meta_keywords'), ___('main_index_meta_description'));
+    $this->setMeta(___('main_index_meta_title'),___('main_index_meta_description'), ___('main_index_meta_keywords') );
   }
 }

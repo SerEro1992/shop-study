@@ -16,4 +16,6 @@ class Product extends AppModel
     return R::getAll("SELECT * FROM product_gallery WHERE product_id = ?", [$product_id]);
   }
 
+
+
 }

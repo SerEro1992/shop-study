@@ -61,8 +61,14 @@ use wfm\View;
                             <i class="far fa-user"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Авторизация</a></li>
-                            <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                          <?php if (empty($_SESSION['user'])): ?>
+                              <li><a class="dropdown-item" href="#"><?php __('tpl_login') ?></a></li>
+                              <li><a class="dropdown-item" href="#"><?php __('tpl_signup') ?></a></li>
+                          <?php else: ?>
+                              <li><a class="dropdown-item" href="#"><?php __('tpl_cabinet') ?></a></li>
+                              <li><a class="dropdown-item" href="#"><?php __('tpl_logout') ?></a></li>
+                          <?php endif; ?>
+
                         </ul>
                     </div>
 
@@ -74,14 +80,16 @@ use wfm\View;
         </div>
     </div><!-- header-top -->
 
-    <div class="header-bottom py-2">
+    <div class=" header-bottom py-2">
         <div class="container">
 
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid p-0">
-                    <a class="navbar-brand" href="<?= base_url() ?>"><?= \wfm\App::$app->getProperty('site_name') ?></a>
+                    <a class="navbar-brand"
+                       href="<?= base_url() ?>"><?= \wfm\App::$app->getProperty('site_name') ?></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
