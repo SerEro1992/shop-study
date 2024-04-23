@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\AppModel;
+use app\models\Wishlist;
 use app\widgets\language\Language;
 use wfm\{App, Controller};
 use RedBeanPHP\R;
@@ -38,6 +39,10 @@ class AppController extends Controller
 
     # добавляем категории в свойство контейнер
     App::$app->setProperty("categories_{$lang['code']}", $categories);
+
+
+    # получаем id товаров в избранном
+    App::$app->setProperty('wishlist', Wishlist::get_wishlist_ids());
 
 
   }
