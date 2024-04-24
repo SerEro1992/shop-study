@@ -989,3 +989,6 @@
 [2024-04-23 22:03:22 ] Текст ошибки: setcookie(): Argument #2 ($value) must be of type string, array given | Файл: W:\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 68
 [2024-04-23 22:03:30 ] Текст ошибки: setcookie(): Argument #2 ($value) must be of type string, array given | Файл: W:\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 68
 [2024-04-23 22:05:12 ] Текст ошибки: setcookie(): Argument #2 ($value) must be of type string, array given | Файл: W:\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 68
+[2024-04-24 21:26:17 ] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-24 21:26:17 ] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
+[2024-04-24 21:26:17 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
