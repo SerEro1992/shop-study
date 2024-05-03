@@ -992,3 +992,12 @@
 [2024-04-24 21:26:17 ] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
 [2024-04-24 21:26:17 ] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 64
 [2024-04-24 21:26:17 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:36:34 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Page/view.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-30 21:36:34 ] Текст ошибки: Не найден вид W:\domains\new-ishop.loc/app/views/Page/view.php | Файл: W:\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 36
+[2024-04-30 21:36:34 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:41:48 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:42:16 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:42:17 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:42:32 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:42:56 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-04-30 21:43:04 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
