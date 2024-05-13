@@ -1001,3 +1001,114 @@
 [2024-04-30 21:42:32 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
 [2024-04-30 21:42:56 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
 [2024-04-30 21:43:04 ] Текст ошибки: Страница не найдена | Файл: W:\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 09:14:06 ] Текст ошибки: Нет соединения с БД | Файл: D:\projects\new-ishop.loc\vendor\wfm\Db.php | Строка: 16
+[2024-05-13 09:14:10 ] Текст ошибки: Нет соединения с БД | Файл: D:\projects\new-ishop.loc\vendor\wfm\Db.php | Строка: 16
+[2024-05-13 09:14:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 12:40:39 ] Текст ошибки: Нет соединения с БД | Файл: D:\projects\new-ishop.loc\vendor\wfm\Db.php | Строка: 16
+[2024-05-13 12:40:43 ] Текст ошибки: Нет соединения с БД | Файл: D:\projects\new-ishop.loc\vendor\wfm\Db.php | Строка: 16
+[2024-05-13 12:40:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:16:16 ] Текст ошибки: Нет соединения с БД | Файл: D:\projects\new-ishop.loc\vendor\wfm\Db.php | Строка: 16
+[2024-05-13 13:17:27 ] Текст ошибки: Undefined array key "excerpt" | Файл: D:\projects\new-ishop.loc\app\views\parts\products_loop.php | Строка: 13
+[2024-05-13 13:17:27 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:17:27 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:17:27 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:10 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: session_start(): open(C:/OSPanel/temp/PHP-8.3/default/session\sess_l5stbq51flfregajr9va3h7pog6jd43l, O_RDWR) failed: Permission denied (13) | Файл: D:\projects\new-ishop.loc\vendor\wfm\App.php | Строка: 16
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:36 ] Текст ошибки: session_start(): open(C:/OSPanel/temp/PHP-8.3/default/session\sess_l5stbq51flfregajr9va3h7pog6jd43l, O_RDWR) failed: Permission denied (13) | Файл: D:\projects\new-ishop.loc\vendor\wfm\App.php | Строка: 16
+[2024-05-13 13:19:36 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:38 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:39 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:41 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:43 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:59 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:59 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:59 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:59 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:59 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:19:59 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:26 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:55 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:55 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:55 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:55 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:55 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:57 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:57 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:57 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:57 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:20:57 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:17 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:17 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:17 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:17 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:17 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:19 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:19 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:19 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:19 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:19 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:20 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:20 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:20 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:20 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 13:22:20 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 14:47:51 ] Текст ошибки: Метод app\controllers\UserController::loginAction  не найден | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 61
+[2024-05-13 14:47:51 ] Текст ошибки: Страница не найдена | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 67
+[2024-05-13 14:49:00 ] Текст ошибки: Метод app\controllers\UserController::loginAction  не найден | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 61
+[2024-05-13 15:27:54 ] Текст ошибки: Unclosed '{' on line 10 | Файл: D:\projects\new-ishop.loc\app\controllers\UserController.php | Строка: 31
+[2024-05-13 15:27:56 ] Текст ошибки: Unclosed '{' on line 10 | Файл: D:\projects\new-ishop.loc\app\controllers\UserController.php | Строка: 31
+[2024-05-13 16:20:40 ] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vysewiw@mailinator.com' for key 'user.email' | Файл: D:\projects\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-05-13 16:25:56 ] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vysewiw@mailinator.com' for key 'user.email' | Файл: D:\projects\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-05-13 16:26:02 ] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vysewiw@mailinator.com' for key 'user.email' | Файл: D:\projects\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-05-13 16:27:19 ] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vysewiw@mailinator.com' for key 'user.email' | Файл: D:\projects\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+[2024-05-13 16:41:10 ] Текст ошибки: Метод app\controllers\UserController::loginAction  не найден | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 61
+[2024-05-13 16:41:12 ] Текст ошибки: Метод app\controllers\UserController::loginAction  не найден | Файл: D:\projects\new-ishop.loc\vendor\wfm\Router.php | Строка: 61

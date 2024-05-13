@@ -17,7 +17,7 @@
       <h1 class="section-title"><?= $page['title'] ?></h1>
 
       <?= $page['content'] ?>
-
+0
     </div>
 
   </div>

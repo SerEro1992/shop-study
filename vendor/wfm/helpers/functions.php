@@ -81,9 +81,14 @@ function ___($key)
 function get_cart_icon($id)
 {
   if (!empty($_SESSION['cart'][$id]) && array_key_exists($id, $_SESSION['cart'])) {
-    $icon='<i class="fas fa-luggage-cart"></i>';
+    $icon = '<i class="fas fa-luggage-cart"></i>';
   } else {
-    $icon='<i class="fas fa-shopping-cart"></i>';
+    $icon = '<i class="fas fa-shopping-cart"></i>';
   }
   return $icon;
+}
+
+function get_field_vale($name)
+{
+  return isset($_SESSION['form_data'][$name]) ? h($_SESSION['form_data'][$name]) : '';
 }
