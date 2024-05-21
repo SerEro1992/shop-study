@@ -63,7 +63,6 @@ $(function () {
 
   $('#get-cart').on('click', function (e) {
     e.preventDefault();
-
     $.ajax({
       url: '/cart/show',
       type: 'GET',
@@ -80,15 +79,19 @@ $(function () {
     e.preventDefault();
 
     const id = $(this).data('id');
-
     $.ajax({
-      url: '/cart/delete',
+      url: 'cart/delete',
       type: 'GET',
       data: {
         id: id
       },
       success: function (res) {
-        showCart(res);
+        const url = window.location.toString();
+        if (url.indexOf('/cart/view') !== -1) {
+          window.location = url;
+        } else {
+          showCart(res);
+        }
       },
       error: function () {
         alert('Произошла ошибка');
