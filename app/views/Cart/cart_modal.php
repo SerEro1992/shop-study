@@ -58,9 +58,9 @@
     </button>
 
   <?php if (!empty($_SESSION['cart'])): ?>
-      <button type="button" class="btn btn-primary">
+      <a href="cart/view" class="btn btn-primary">
         <?php __('tpl_cart_btn_order') ?>
-      </button>
+      </a>
       <button type="button" class=" btn btn-danger" id="clear-cart">
         <?php __('tpl_cart_btn_clear') ?>
       </button>
