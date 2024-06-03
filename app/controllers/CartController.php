@@ -80,14 +80,15 @@ class CartController extends AppController
       #регистрация пользователя, если не авторизован
       if (!User::checkAuth()) {
         $user = new User();
-        $user->load();
+        $data = $_POST;
+        $user->load($data);
 
-        if (!$user->validate($user->attributes) || !$user->checkUnique()) {
+        if (!$user->validate($data) || !$user->checkUnique()) {
           $user->getErrors();
-          $_SESSION['form_data'] = $user->attributes;
+          $_SESSION['form_data'] = $data;
           redirect();
         } else {
-          $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+          $user->attributes['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
 
           if (!$user_id = $user->save('user')) {
             $_SESSION['errors'] = ___('cart_checkout_error_register');
